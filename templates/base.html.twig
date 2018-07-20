@@ -1,0 +1,22 @@
+{# templates/base.html.twig #}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Probando la herencia en Twig{% endblock %}</title>
+    </head>
+    <body>
+        <div id="sidebar">
+            {% block barra_lateral %}
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="index.php?p=blog/inicio">Blog</a></li>
+                    <li><a href="index.php?p=tienda/ofertas">Ofertas</a></li>
+                </ul>
+            {% endblock %}
+        </div>
+        <div id="contenido">
+            {% block contenido %}{% endblock %}
+        </div>
+    </body>
+</html>

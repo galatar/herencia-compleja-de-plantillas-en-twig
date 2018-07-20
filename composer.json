@@ -1,0 +1,20 @@
+{
+    "name": "galatar/herencia-twig",
+    "description": "Herencia compleja de plantillas en Twig",
+    "type": "tutorial",
+    "autoload": {
+        "psr-4": {
+            "Galatar\\": "src"
+        }
+    },
+    "require": {
+        "twig/twig": "^2.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juanan Ruiz",
+            "email": "juanan@us.es"
+        }
+    ]
+}
