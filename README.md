@@ -1,5 +1,4 @@
-# herencia-compleja-de-plantillas-en-twig
-Tutorial: Herencia compleja de plantillas en Twig
+# Tutorial: Herencia compleja de plantillas en Twig
 
 http://galatar.com/herencia-compleja-de-plantillas-en-twig/
 
